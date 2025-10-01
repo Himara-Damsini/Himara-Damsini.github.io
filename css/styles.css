@@ -4746,18 +4746,30 @@ td:last-child {
     position: fixed;
     bottom: 20px;
     right: 20px;
-    background-color: #ea8f10; /* your original color */
+    background-color: #ea8f10; /* button background */
     color: black; /* text color */
-    padding: 15px 25px;
+    padding: 12px 20px;
     border-radius: 50px;
     text-decoration: none;
     font-weight: bold;
-    box-shadow: 0 4px 6px rgba(0,0,0,0.2);
-    transition: background-color 0.3s;
+    font-size: 14px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.3);
+    z-index: 9999; /* makes sure it's always on top */
 }
 
-/* Hover effect */
+/* Hover for desktop */
 .floating-cv-btn:hover {
-    background-color: #ea8f10;
+    background-color: #e6b800; /* darker yellow */
+    color: white; /* text turns white */
+}
+
+/* For smaller screens */
+@media (max-width: 768px) {
+    .floating-cv-btn {
+        bottom: 15px;
+        right: 15px;
+        padding: 10px 16px;
+        font-size: 13px;
+    }
 }
 
