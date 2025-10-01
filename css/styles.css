@@ -4742,7 +4742,7 @@ td:last-child {
 }
 
 /* Style the floating button */
-.floating-btn {
+.floating-cv-btn {
     position: fixed;
     bottom: 20px;
     right: 20px;
@@ -4757,7 +4757,7 @@ td:last-child {
 }
 
 /* Hover effect */
-.floating-btn:hover {
+.floating-cv-btn:hover {
     background-color: #ea8f10;
 }
 
