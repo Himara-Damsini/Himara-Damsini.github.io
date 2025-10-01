@@ -4741,21 +4741,23 @@ td:last-child {
 	padding-left: 0;
 }
 
-.floating-cv-btn {
+/* Style the floating button */
+.floating-btn {
     position: fixed;
     bottom: 20px;
     right: 20px;
-    background-color: #ea8f10;
-    color: white;
-    padding: 12px 20px;
+    background-color: #ea8f10; /* your original color */
+    color: black; /* text color */
+    padding: 15px 25px;
     border-radius: 50px;
     text-decoration: none;
     font-weight: bold;
     box-shadow: 0 4px 6px rgba(0,0,0,0.2);
-    transition: background 0.3s;
-    z-index: 1000;
+    transition: background-color 0.3s;
 }
 
-.floating-cv-btn:hover {
-    background-color: #7a923a;
+/* Hover effect */
+.floating-btn:hover {
+    background-color: #ea8f10;
 }
+
